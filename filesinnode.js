@@ -1,5 +1,5 @@
 const fs = require('fs');
-fs.mkfir('folder', (err)=>{
+fs.mkdir('folder', (err)=>{
   if(err){
     console.log(err);
   } else {
